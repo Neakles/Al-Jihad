@@ -1,0 +1,372 @@
+/*////////////////////////////////////////////////////////////////////////
+//  02 - Header
+///////////////////////////////////////////////////////////////////////*/
+
+header.top-header {
+    position: fixed;
+    z-index: 999;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+}
+
+header.top-header1 {
+    background-color: #000000b7;
+    z-index: 999;
+    padding-bottom: 1.5vw;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+}
+
+.shows {
+    background: rgba(43, 62, 81, 0.77);
+    transition: all 0.6s;
+}
+
+.shows .navbar-default {
+    /* background-color: #f8f8f8; */
+    /* border-color: #e7e7e7; */
+    margin-bottom: 10px;
+    transition: all 0.6s;
+}
+
+.shows .navbar-nav {
+    float: right;
+    margin: 15px 0 0;
+    color: white;
+}
+
+.shows h1.logo {
+    margin-top: 0px;
+    color: #0ebbef;
+}
+
+.header-logo {
+    text-decoration: none;
+}
+
+h1.logo {
+    margin-top: 11px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Amaranth";
+}
+
+#header {
+    position: relative;
+    text-align: center;
+    padding: 0 !important;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 31px 0 0;
+    color: white;
+}
+
+#header .top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 30px;
+    height: auto;
+    z-index: 500;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#header .top.solid {
+    background: #475b6f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#header .top h1 {
+    margin-bottom: 0;
+}
+
+#header .top.solid .toggleDrawer i {
+    padding-top: 8px;
+}
+
+#header .logo,
+#header .toggleDrawer {
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+
+.logo-head {
+    font-family: "Amaranth";
+    font-size: 20px;
+    font-weight: 300;
+    color: #bee291;
+    font-weight: bold;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
+
+#header .slogan {
+    font-size: 4em;
+    margin-bottom: 15px;
+    line-height: 1em;
+    font-family: "Amaranth";
+    color: #fff;
+    font-weight: bold;
+}
+
+#header .slogan1 {
+    font-size: 4em;
+    margin-top: 20vh;
+    margin-bottom: -1vw;
+    line-height: 1em;
+    font-family: "Raleway", sans-serif;
+    color: #bee291;
+    font-weight: bold;
+}
+
+#header .secondary-slogan {
+    font-size: 2em;
+    color: #bee291;
+    line-height: 1em;
+    font-family: "Amaranth";
+}
+
+#header>.bottom {
+    position: absolute;
+    bottom: 75px;
+    text-align: center;
+    width: 100%;
+}
+
+#header>.bottom a img {
+    width: 50px;
+}
+
+#header>.bottom a {
+    opacity: 0.7;
+}
+
+#header>.bottom a:hover {
+    opacity: 1;
+}
+
+/*////////////////////////////////////////////////////////////////////////
+//  04 - Parallax styles
+///////////////////////////////////////////////////////////////////////*/
+
+.content-block {
+    background: transparent no-repeat center center fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+.parallax {
+    padding: 80px 0;
+}
+
+.block-body {
+    margin-top: 60px;
+}
+
+#services {
+    background: white;
+}
+
+#parallax {
+    /* background-image: url(../images/blue_mac2.jpg); */
+    color: white;
+    background: #db5252;
+}
+
+#parallax h1 {
+    margin-bottom: 60px;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.kiri {
+    float: left;
+    margin-left: 13vw;
+    color: #bee2b7;
+    padding: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: #343b44;
+    padding: 60px 0;
+}
+
+.footer .footer-logo {
+    margin-bottom: 30px;
+}
+
+.footer .copyright {
+    font-size: 15px;
+    color: #647183;
+    margin-bottom: 0;
+}
+
+.footer .social-icons {
+    margin-bottom: 20px;
+}
+
+.footer .social-icons li a:hover {
+    text-decoration: none;
+}
+
+.footer .social-icons li i {
+    color: #647183;
+    font-size: 22px;
+}
+
+.footer .social-icons li i:hover {
+    color: #32a1cf;
+}
+
+@media only screen and (max-width: 600px) {
+    .progress_bar>div>strong {
+        display: none;
+    }
+
+    .progress_bar>div>span {
+        display: table;
+        height: 3px;
+        top: 8.5px;
+        z-index: 1;
+        position: relative;
+        background: none;
+    }
+
+    .kategori {
+        display: block;
+    }
+
+    h1.logo {
+        margin-top: 11px;
+        font-size: 1.8em;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Amaranth";
+    }
+
+    .logo-head {
+        font-family: "Amaranth";
+        font-size: 0.7em;
+        font-weight: 300;
+        color: #bee291;
+        font-weight: bold;
+    }
+
+    #header .slogan {
+        font-size: 3.5em;
+        margin-bottom: 15px;
+        line-height: 1em;
+        font-family: "Amaranth";
+        color: #fff;
+        font-weight: bold;
+    }
+
+    #header .slogan1 {
+        font-size: 4em;
+        margin-top: 20vh;
+        margin-bottom: -6vh;
+        line-height: 1em;
+        font-family: "Raleway", sans-serif;
+        color: #bee291;
+        font-weight: bold;
+    }
+
+    #header .secondary-slogan {
+        font-size: 1.9em;
+        color: #bee291;
+        line-height: 1em;
+        font-family: "Amaranth";
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .progress_bar>div>strong {
+        display: none;
+    }
+
+    .progress_bar>div>span {
+        display: table;
+        height: 3px;
+        top: 9px;
+        z-index: 1;
+        position: relative;
+        background: none;
+    }
+
+    .kategori {
+        display: block;
+    }
+
+    #header .slogan1 {
+        font-size: 4em;
+        margin-top: 20vh;
+        margin-bottom: -6vh;
+        line-height: 1em;
+        font-family: "Raleway", sans-serif;
+        color: #bee291;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .progress_bar>div>strong {
+        display: block;
+    }
+
+    .progress_bar>div>span {
+        display: table;
+        height: 3px;
+        top: -11px;
+        z-index: 1;
+        position: relative;
+        background: none;
+    }
+
+    .kategori {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .progress_bar>div>strong {
+        display: block;
+    }
+
+    .progress_bar>div>span {
+        display: table;
+        height: 3px;
+        top: -11px;
+        z-index: 1;
+        position: relative;
+        background: none;
+    }
+
+    .kategori {
+        display: none;
+    }
+}
