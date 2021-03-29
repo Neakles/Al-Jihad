@@ -127,7 +127,7 @@
                         <a href="#" class="col-md-6 col-xs-12  list-group-item list-group-item-action flex-column align-items-start border-0">
                             <div class="media">
                                 <div class="media-body">
-                                    <img class="rounded lazyload blur-up lazyloaded" src="/img/slider/5.jpg" alt="">
+                                    <img class="rounded lazyload blur-up lazyloaded" src="<?= base_url('/img/slider/5.jpg'); ?> " alt="">
                                     <h6 class="mt-0 mb-1 h6">Anggap Saja Ini Judul Artikel Anggap Saja Judul Artikel Anggap Saja Judul Artikel Anggap Saja</h6>
                                     <p class="date-media"><i class="fa fa-calendar"></i>20 April 2021</p>
                                 </div>
@@ -136,7 +136,7 @@
                         <a href="#" class="col-md-6 col-xs-12  list-group-item list-group-item-action flex-column align-items-start border-0">
                             <div class="media">
                                 <div class="media-body">
-                                    <img class="rounded lazyload blur-up lazyloaded" src="/img/slider/5.jpg" alt="">
+                                    <img class="rounded lazyload blur-up lazyloaded" src="<?= base_url('/img/slider/5.jpg'); ?>" alt="">
                                     <h6 class="mt-0 mb-1 h6">Anggap Saja Ini Judul Artikel Anggap Saja Judul Artikel Anggap Saja Judul Artikel Anggap Saja</h6>
                                     <p class="date-media"><i class="fa fa-calendar"></i>20 April 2021</p>
                                 </div>
@@ -145,7 +145,7 @@
                         <a href="#" class="col-md-6 col-xs-12  list-group-item list-group-item-action flex-column align-items-start border-0">
                             <div class="media">
                                 <div class="media-body">
-                                    <img class="rounded lazyload blur-up lazyloaded" src="/img/slider/5.jpg" alt="">
+                                    <img class="rounded lazyload blur-up lazyloaded" src="<?= base_url('/img/slider/5.jpg'); ?>" alt="">
                                     <h6 class="mt-0 mb-1 h6">Anggap Saja Ini Judul Artikel Anggap Saja Judul Artikel Anggap Saja Judul Artikel Anggap Saja</h6>
                                     <p class="date-media"><i class="fa fa-calendar"></i>20 April 2021</p>
                                 </div>
@@ -154,7 +154,7 @@
                         <a href="#" class="col-md-6 col-xs-12  list-group-item list-group-item-action flex-column align-items-start border-0">
                             <div class="media">
                                 <div class="media-body">
-                                    <img class="rounded lazyload blur-up lazyloaded" src="/img/slider/5.jpg" alt="">
+                                    <img class="rounded lazyload blur-up lazyloaded" src="<?= base_url('/img/slider/5.jpg'); ?>" alt="">
                                     <h6 class="mt-0 mb-1 h6">Anggap Saja Ini Judul Artikel Anggap Saja Judul Artikel Anggap Saja Judul Artikel Anggap Saja</h6>
                                     <p class="date-media"><i class="fa fa-calendar"></i>20 April 2021</p>
                                 </div>
@@ -163,7 +163,7 @@
                         <a href="#" class="col-md-6 col-xs-12 list-group-item list-group-item-action flex-column align-items-start border-0">
                             <div class="media">
                                 <div class="media-body">
-                                    <img class="rounded lazyload blur-up lazyloaded" src="/img/slider/5.jpg" alt="">
+                                    <img class="rounded lazyload blur-up lazyloaded" src="<?= base_url('/img/slider/5.jpg'); ?>" alt="">
                                     <h6 class="mt-0 mb-1 h6">Anggap Saja Ini Judul Artikel Anggap Saja Judul Artikel Anggap Saja Judul Artikel Anggap Saja</h6>
                                     <p class="date-media"><i class="fa fa-calendar"></i>20 April 2021</p>
                                 </div>
@@ -172,7 +172,7 @@
                         <a href="#" class="col-md-6 col-xs-12 list-group-item list-group-item-action flex-column align-items-start border-0">
                             <div class="media">
                                 <div class="media-body">
-                                    <img class="rounded lazyload blur-up lazyloaded" src="/img/slider/5.jpg" alt="">
+                                    <img class="rounded lazyload blur-up lazyloaded" src="<?= base_url('/img/slider/5.jpg'); ?>" alt="">
                                     <h6 class="mt-0 mb-1 h6">Anggap Saja Ini Judul Artikel Anggap Saja Judul Artikel Anggap Saja Judul Artikel Anggap Saja</h6>
                                     <p class="date-media"><i class="fa fa-calendar"></i>20 April 2021</p>
                                 </div>
@@ -231,7 +231,7 @@
                         <a href="#" class="col-md-6 col-xs-12  list-group-item list-group-item-action flex-column align-items-start border-0">
                             <div class="media">
                                 <div class="media-body">
-                                    <img class="rounded lazyload blur-up lazyloaded" src="/img/slider/5.jpg" alt="">
+                                    <img class="rounded lazyload blur-up lazyloaded" src="<?= base_url('/img/slider/5.jpg'); ?>" alt="">
                                     <h6 class="mt-0 mb-1 h6">Anggap Saja Ini Judul Artikel Anggap Saja Judul Artikel Anggap Saja Judul Artikel Anggap Saja</h6>
                                     <p class="date-media"><i class="fa fa-calendar"></i>20 April 2021</p>
                                 </div>
@@ -240,7 +240,7 @@
                         <a href="#" class="col-md-6 col-xs-12  list-group-item list-group-item-action flex-column align-items-start border-0">
                             <div class="media">
                                 <div class="media-body">
-                                    <img class="rounded lazyload blur-up lazyloaded" src="/img/slider/5.jpg" alt="">
+                                    <img class="rounded lazyload blur-up lazyloaded" src="<?= base_url('/img/slider/5.jpg'); ?>" alt="">
                                     <h6 class="mt-0 mb-1 h6">Anggap Saja Ini Judul Artikel Anggap Saja Judul Artikel Anggap Saja Judul Artikel Anggap Saja</h6>
                                     <p class="date-media"><i class="fa fa-calendar"></i>20 April 2021</p>
                                 </div>
@@ -249,7 +249,7 @@
                         <a href="#" class="col-md-6 col-xs-12  list-group-item list-group-item-action flex-column align-items-start border-0">
                             <div class="media">
                                 <div class="media-body">
-                                    <img class="rounded lazyload blur-up lazyloaded" src="/img/slider/5.jpg" alt="">
+                                    <img class="rounded lazyload blur-up lazyloaded" src="<?= base_url('/img/slider/5.jpg'); ?>" alt="">
                                     <h6 class="mt-0 mb-1 h6">Anggap Saja Ini Judul Artikel Anggap Saja Judul Artikel Anggap Saja Judul Artikel Anggap Saja</h6>
                                     <p class="date-media"><i class="fa fa-calendar"></i>20 April 2021</p>
                                 </div>
@@ -258,7 +258,7 @@
                         <a href="#" class="col-md-6 col-xs-12  list-group-item list-group-item-action flex-column align-items-start border-0">
                             <div class="media">
                                 <div class="media-body">
-                                    <img class="rounded lazyload blur-up lazyloaded" src="/img/slider/5.jpg" alt="">
+                                    <img class="rounded lazyload blur-up lazyloaded" src="<?= base_url('/img/slider/5.jpg'); ?>" alt="">
                                     <h6 class="mt-0 mb-1 h6">Anggap Saja Ini Judul Artikel Anggap Saja Judul Artikel Anggap Saja Judul Artikel Anggap Saja</h6>
                                     <p class="date-media"><i class="fa fa-calendar"></i>20 April 2021</p>
                                 </div>
@@ -267,7 +267,7 @@
                         <a href="#" class="col-md-6 col-xs-12 list-group-item list-group-item-action flex-column align-items-start border-0">
                             <div class="media">
                                 <div class="media-body">
-                                    <img class="rounded lazyload blur-up lazyloaded" src="/img/slider/5.jpg" alt="">
+                                    <img class="rounded lazyload blur-up lazyloaded" src="<?= base_url('/img/slider/5.jpg'); ?>" alt="">
                                     <h6 class="mt-0 mb-1 h6">Anggap Saja Ini Judul Artikel Anggap Saja Judul Artikel Anggap Saja Judul Artikel Anggap Saja</h6>
                                     <p class="date-media"><i class="fa fa-calendar"></i>20 April 2021</p>
                                 </div>
@@ -276,7 +276,7 @@
                         <a href="#" class="col-md-6 col-xs-12 list-group-item list-group-item-action flex-column align-items-start border-0">
                             <div class="media">
                                 <div class="media-body">
-                                    <img class="rounded lazyload blur-up lazyloaded" src="/img/slider/5.jpg" alt="">
+                                    <img class="rounded lazyload blur-up lazyloaded" src="<?= base_url('/img/slider/5.jpg'); ?>" alt="">
                                     <h6 class="mt-0 mb-1 h6">Anggap Saja Ini Judul Artikel Anggap Saja Judul Artikel Anggap Saja Judul Artikel Anggap Saja</h6>
                                     <p class="date-media"><i class="fa fa-calendar"></i>20 April 2021</p>
                                 </div>

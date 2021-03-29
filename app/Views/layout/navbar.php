@@ -1,6 +1,6 @@
     <div class="header-nav">
         <div class="head-title">
-            <a href="<?= base_url('/'); ?>"><img src="/img/logo-yayasan.png"> </div> <button class="btn header-btn-collapse-nav mt-lg" data-toggle="collapse" data-target=".header-nav-main"></a>
+            <a href="<?= base_url('/'); ?>"><img src="<?= base_url('/img/logo-yayasan.png'); ?>"> </div> <button class="btn header-btn-collapse-nav mt-lg" data-toggle="collapse" data-target=".header-nav-main"></a>
             <i class="fa fa-bars"></i>
         </button>
 

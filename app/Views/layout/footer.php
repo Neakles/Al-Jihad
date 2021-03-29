@@ -4,7 +4,7 @@
       <div class="col-md-12 col-lg-4">
         <div class="dk-footer-box-info">
           <a href="index.html" class="footer-logo">
-            <img src="/img/logo-yayasan.png" alt="footer_logo" class="img-fluid">
+            <img src="<?= base_url('/img/logo-yayasan.png'); ?>" alt="footer_logo" class="img-fluid">
           </a>
           <p class="footer-info-text">
             Yayasan Al-Jihad Surabaya
