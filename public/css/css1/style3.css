@@ -304,7 +304,24 @@ h1.logo {
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
+    .header-logo {
+        height: 200px;
+    }
+
+    img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .logo-head {
+        font-size: 20px;
+    }
+
     .progress_bar>div>strong {
         display: none;
     }

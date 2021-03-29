@@ -68,7 +68,8 @@ class Pendataan extends Controller
     {
         $data = [
             'nspp' => "510035780004",
-            'nisp' => $this->get_nisp(),
+            // 'nisp' => $this->get_nisp(),
+            // 'nisp' => $this->request->getPost('nisp'),
             // 'slug => $slug,'
             'tgl_daftar' => date('Y-m-d H-i-s'),
             'thn_masuk' => $this->request->getVar('thn_masuk'),
@@ -89,6 +90,8 @@ class Pendataan extends Controller
             'dusun' => $this->request->getVar('dusun'),
             'desa' => $this->request->getVar('desa'),
             'pos' => $this->request->getVar('pos'),
+            'rt' => $this->request->getVar('rt'),
+            'rw' => $this->request->getVar('rw'),
             'jp' => $this->request->getVar('jp'),
             'nama_sekolah' => $this->request->getVar('nama_sekolah'),
             'alamat_sekolah' => $this->request->getVar('alamat_sekolah'),
@@ -99,10 +102,12 @@ class Pendataan extends Controller
             'fakultas' => $this->request->getVar('fakultas'),
             'jur' => $this->request->getVar('jur'),
             'nama_ayah' => $this->request->getVar('nama_ayah'),
+            'nama_ayah' => $this->request->getVar('sh_ayah'),
             'nik_ayah' => $this->request->getVar('nik_ayah'),
             'pendidikan_ayah' => $this->request->getVar('pendidikan_ayah'),
             'pekerjaan_ayah' => $this->request->getVar('pekerjaan_ayah'),
             'nama_ibu' => $this->request->getVar('nama_ibu'),
+            'nama_ibu' => $this->request->getVar('sh_ibu'),
             'nik_Ibu' => $this->request->getVar('nik_Ibu'),
             'pendidikan_ibu' => $this->request->getVar('pendidikan_ibu'),
             'pekerjaan_ibu' => $this->request->getVar('pekerjaan_ibu'),
@@ -116,13 +121,30 @@ class Pendataan extends Controller
             'nama_kk' => $this->request->getVar('nama_kk'),
             'status_kk' => $this->request->getVar('status_kk'),
             'alamat_wali' => $this->request->getVar('alamat'),
-            'prov_wali' => $this->request->getVar('prov'),
-            'kab_wali' => $this->request->getVar('kab'),
-            'kec_wali' => $this->request->getVar('kec'),
-            'dusun_wali' => $this->request->getVar('dusun'),
-            'desa_wali' => $this->request->getVar('desa'),
-            'pos_wali' => $this->request->getVar('pos')
+            // 'prov_wali' => $this->request->getVar('prov'),
+            // 'kab_wali' => $this->request->getVar('kab'),
+            // 'kec_wali' => $this->request->getVar('kec'),
+            // 'dusun_wali' => $this->request->getVar('dusun'),
+            // 'desa_wali' => $this->request->getVar('desa'),
+            // 'pos_wali' => $this->request->getVar('pos')
         ];
+
+        /* 
+    Membuat variabel simpan yang isinya merupakan memanggil function 
+    insert_product dan membawa parameter data 
+    */
+        // // $simpan = $this->data_santri->simpan_data($data);
+        // $santri = new DatasantriModel();
+        // $simpan_data = $santri->simpan_data($data);
+
+        // // Jika simpan berhasil, maka ...
+        // if ($simpan_data) {
+        //     // Deklarasikan session flashdata dengan tipe success
+        //     session()->setFlashdata('success', 'Created product successfully');
+        //     // Redirect halaman ke product
+        //     return redirect()->to('/pendataan/form');
+        // }
+
         $santri = new DatasantriModel();
         $simpan_data = $santri->simpan_data($data);
         return redirect()->to('/pendataan/form');

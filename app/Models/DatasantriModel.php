@@ -31,7 +31,7 @@ class DatasantriModel extends Model
         $this->query('SELECT RIGHT data_santri.nisp, 4 as kode', FALSE);
         $this->orderBy('nisp', 'DESC');
         $this->limit(1);
-        $query = $this->db->get('data_santri');     //cek dulu apakah ada sudah ada kode di tabel.    
+        $query = $this->get('data_santri');     //cek dulu apakah ada sudah ada kode di tabel.    
         if ($query->num_rows() <> 0) {
             //jika kode ternyata sudah ada.      
             $data = $query->row();

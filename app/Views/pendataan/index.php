@@ -45,7 +45,7 @@
                     <br>
                     <br>
                 </div>
-                <a href="<?= base_url('/pendataan/form'); ?>"><button class="btn btn-lg" style="background-color:#bee291; width:20vh; color: black;">Yatim</button></a>
+                <!-- <a href="<?= base_url('/pendataan/form'); ?>"><button class="btn btn-lg" style="background-color:#bee291; width:20vh; color: black;">Yatim</button></a> -->
                 <a href="<?= base_url('/pendataan/form'); ?>"><button class="btn btn-lg" style="background-color:#bee291; width:20vh; color: black;">Santri</button></a>
             </section>
         </div><!-- header -->

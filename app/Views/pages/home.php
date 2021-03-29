@@ -38,25 +38,25 @@
                                     <h6 class="col-md-7 tgl">29</h6>
                                     <h6 class="col-md-7 bln">Jan</h6>
                                 </div>
-                                <a class="mt-0 mb-1 h6 judul-agenda">Judul ArtikelJudul ArtikelJudul Artikel Anggap SajaJudul Artikel Anggap Saja Judul Artikel Anggap Saja</a>
+                                <a class="mt-0 mb-1 h6 judul-agenda">Pengajian Umum oleh KH Much Imam Chambali</a>
                             </div>
                         </a>
                         <a href="#" class="">
                             <div class="media">
                                 <div class="agenda">
-                                    <h6 class="col-md-7 tgl">29</h6>
+                                    <h6 class="col-md-7 tgl">30</h6>
                                     <h6 class="col-md-7 bln">Jan</h6>
                                 </div>
-                                <a class="mt-0 mb-1 h6 judul-agenda">Judul Artikel Anggap Saja Judul Artikel Anggap Saja</a>
+                                <a class="mt-0 mb-1 h6 judul-agenda">Dzikir Rahmatan Lilalamin</a>
                             </div>
                         </a>
                         <a href="#" class="">
                             <div class="media">
                                 <div class="agenda">
-                                    <h6 class="col-md-7 tgl">29</h6>
-                                    <h6 class="col-md-7 bln">Jan</h6>
+                                    <h6 class="col-md-7 tgl">02</h6>
+                                    <h6 class="col-md-7 bln">Feb</h6>
                                 </div>
-                                <a class="mt-0 mb-1 h6 judul-agenda">Judul Artikel Anggap Saja Judul Artikel Anggap Saja</a>
+                                <a class="mt-0 mb-1 h6 judul-agenda">Pengajian Umum oleh KH Sukron Jazilan</a>
                             </div>
                         </a>
                         <div class="col-md-12 text-center">
@@ -77,7 +77,7 @@
                                 <div class="pengumuman">
                                     <i class="fa fa-bullhorn"></i>
                                 </div>
-                                <a class="mt-0 mb-1 h6 judul-pengumuman">Judul ArtikelJudul ArtikelJudul Artikel Anggap SajaJudul Artikel Anggap Saja Judul Artikel Anggap Saja</a>
+                                <a class="mt-0 mb-1 h6 judul-pengumuman">Untuk semetara Pengajian Malam masih libur.</a>
                             </div>
                         </a>
                         <a href="#" class="">
@@ -85,7 +85,7 @@
                                 <div class="pengumuman">
                                     <i class="fa fa-bullhorn"></i>
                                 </div>
-                                <a class="mt-0 mb-1 h6 judul-pengumuman">Judul Artikel Anggap Saja Judul Artikel Anggap Saja</a>
+                                <a class="mt-0 mb-1 h6 judul-pengumuman">Per Januari 2021 Syahriah pondok dipotong 50%</a>
                             </div>
                         </a>
                         <a href="#" class="">
@@ -93,7 +93,7 @@
                                 <div class="pengumuman">
                                     <i class="fa fa-bullhorn"></i>
                                 </div>
-                                <a class="mt-0 mb-1 h6 judul-pengumuman">Judul Artikel Anggap Saja Judul Artikel Anggap Saja</a>
+                                <a class="mt-0 mb-1 h6 judul-pengumuman">Pondok libur sampai semester genap</a>
                             </div>
                         </a>
                         <div class="col-md-12 text-center">
@@ -114,7 +114,7 @@
                         <div class="garis"></div>
                     </div>
                     <div class="isi-video">
-                        <iframe class="uk-video" src="https://www.youtube.com/embed/mzGdWx0RfTA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="uk-video" src="https://www.youtube.com/embed/EumQnY06WZY" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
                 <!-- BERITA -->
